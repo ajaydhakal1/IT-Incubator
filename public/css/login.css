@@ -154,3 +154,14 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+
+/* Mobile View */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+  .details{
+    margin-left: 0;
+  }
+
+  .user-details .input-box input{
+    width: 100%;
+  }
+}
